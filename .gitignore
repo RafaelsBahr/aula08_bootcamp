@@ -1,0 +1,17 @@
+# Ferramentas pessoais / IA
+CLAUDE.md
+prompts.md
+DESAFIOS_aula08.md
+
+# Rascunhos
+laboratorio.py
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+
+# Logs e arquivos gerados em execução
+output/pipeline.log
