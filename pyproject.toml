@@ -1,0 +1,20 @@
+[project]
+name = "aula08-bootcamp"
+version = "0.1.0"
+description = "Prática da Aula 08 — ETL com Pandas, JSON e Parquet"
+authors = [
+    {name = "RafaelsBahr",email = "rafaelsedrezbahr@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.14,<4.0"
+dependencies = [
+    "pandas (>=3.0.3,<4.0.0)",
+    "pandera (>=0.32.0,<0.33.0)",
+    "fastparquet (>=2026.5.0,<2027.0.0)",
+    "loguru (>=0.7.3,<0.8.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
